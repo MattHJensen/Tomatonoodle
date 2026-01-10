@@ -6,7 +6,7 @@
 
 ---
 
-**Tomatonoodle** is a comprehensive, bilingual (English/Chinese) repository documenting the history, recipes, regional variations, and cultural significance of Chinese tomato noodle soup - one of China's most beloved comfort foods.
+**Tomatonoodle** is a comprehensive, bilingual (English/Chinese) repository documenting the history, recipes, regional variations, techniques, and cultural significance of Chinese tomato noodle soup - one of China's most beloved comfort foods.
 
 From its origins as a "foreign curiosity" in the 16th century to its status as the most frequently cooked home meal in China today, this archive traces the remarkable 400-year journey of tomatoes in Chinese cuisine.
 
@@ -14,28 +14,80 @@ From its origins as a "foreign curiosity" in the 16th century to its status as t
 
 ## Quick Navigation
 
+### Core Content
+
 | Section | Description |
 |---------|-------------|
 | [History](docs/HISTORY.md) | The 400-year journey from foreign fruit to national comfort food |
+| [Cultural References](docs/CULTURE.md) | Literature, film, and the dish in cultural imagination |
 | [English Recipes](recipes/english-sources/) | Recipes from The Woks of Life, Omnivore's Cookbook, and more |
 | [Chinese Recipes](recipes/chinese-sources/) | 食谱来自下厨房、美食杰、豆果美食等平台 |
 | [Regional Variations](recipes/regional-variations/) | From Shandong to Taiwan: 10 regional styles |
 | [Cookbook References](references/COOKBOOKS.md) | Physical cookbooks with confirmed or potential recipes |
 
+### Guides & Techniques
+
+| Section | Description |
+|---------|-------------|
+| [Noodle Encyclopedia](guides/NOODLES.md) | Complete guide to every noodle type with pairings |
+| [Tomato Guide](guides/TOMATOES.md) | Selection, preparation, and the 炒出沙 technique |
+| [Technique Masterclass](techniques/MASTERCLASS.md) | Step-by-step mastery of essential skills |
+| [Troubleshooting](techniques/TROUBLESHOOTING.md) | Diagnose and fix every common problem |
+| [Restaurant Guide](guides/RESTAURANTS.md) | Where to eat this dish in China and worldwide |
+
+### Practical Resources
+
+| Section | Description |
+|---------|-------------|
+| [Dietary Adaptations](recipes/DIETARY-ADAPTATIONS.md) | Vegan, gluten-free, low-sodium, kid-friendly versions |
+| [Substitution Guide](guides/SUBSTITUTIONS.md) | Ingredient swaps for diaspora cooks |
+| [Stock Recipes](recipes/STOCKS.md) | Foundation broths from quick to luxurious |
+| [Meal Planning](guides/MEAL-PLANNING.md) | Complete meals, accompaniments, and pairings |
+| [Video Library](resources/VIDEOS.md) | Curated tutorials with timestamps |
+| [Pronunciation Guide](guides/PRONUNCIATION.md) | How to say it correctly (with pinyin) |
+
+### Community
+
+| Section | Description |
+|---------|-------------|
+| [Family Recipe Template](community/FAMILY-RECIPE-TEMPLATE.md) | Share your family's version |
+
 ---
 
 ## What's Inside
 
-### Historical Documentation
-- Introduction of tomatoes to China (16th-17th century)
-- 300 years as an "inedible" ornamental plant
-- Western influence and Shanghai restaurant culture (1920s-1930s)
-- Post-1949 proliferation as comfort food
-- The dish's role in Chinese diaspora identity
+### Recipes: 30+ Documented
 
-### Recipe Collection
+| Source Type | Count | Highlights |
+|-------------|-------|------------|
+| English websites | 7+ | Woks of Life, Omnivore's, Made With Lau |
+| Chinese platforms | 15+ | 下厨房, 美食杰, Bilibili |
+| Regional styles | 10 | Chengdu, Beijing, Shanghai, Hong Kong... |
+| Dietary versions | 6 | Vegan, GF, keto, kid-friendly |
 
-#### English-Language Sources
+### Guides: Deep Knowledge
+
+| Topic | What You'll Learn |
+|-------|-------------------|
+| **11 noodle types** | Texture profiles, cooking times, pairings |
+| **Tomato varieties** | Selection by season, peeling methods |
+| **5 essential techniques** | 炒出沙, egg mastery, soup building |
+| **Troubleshooting** | 10 common problems, instant fixes |
+| **Substitutions** | 50+ ingredient swaps by category |
+
+### Cultural Documentation
+
+- Lao She's 1935 essay "The Tomato"
+- Diaspora identity and comfort food
+- Internet meme culture
+- Family oral histories
+
+---
+
+## Recipe Collection at a Glance
+
+### English-Language Sources
+
 | Source | Recipe Style | Region |
 |--------|--------------|--------|
 | The Woks of Life | Egg drop soup | Shanghai |
@@ -46,14 +98,15 @@ From its origins as a "foreign curiosity" in the 16th century to its status as t
 | Chinese Cooking Demystified | Jiandanmian | Chengdu |
 | Bon Appetit | Vegetarian soup | Fusion |
 
-#### Chinese-Language Sources (中文来源)
+### Chinese-Language Sources (中文来源)
+
 | 平台 | Platform | 特色 | Specialty |
 |------|----------|------|-----------|
 | 下厨房 | Xiachufang | 家常做法，千万浏览 | Home-style, millions of views |
 | 美食杰 | Meishij | 龙须面做法 | Dragon beard noodles |
 | 豆果美食 | Douguo | 汤面与拌面 | Soup and dry styles |
 | 香哈网 | Xiangha | 打卤面与凉面 | Gravy and cold noodles |
-| 心食谱 | Xinshipu | 东北面条与面疙瘩 | Northeastern noodles, dough drops |
+| 心食谱 | Xinshipu | 东北面条与面疙瘩 | Northeastern, dough drops |
 | 小红书 | Xiaohongshu | 简单快手做法 | Quick, easy methods |
 | Bilibili | Bilibili | 视频教程 | Video tutorials |
 
@@ -64,32 +117,12 @@ From its origins as a "foreign curiosity" in the 16th century to its status as t
 | Shandong | 山东 | Hand-pulled noodles, thick gravy | 拉面，浓卤 |
 | Shaanxi | 陕西 | Biangbiang noodles, oil-splashed | 油泼面 |
 | Xinjiang | 新疆 | Laghman, lamb, cumin | 拉条子，羊肉 |
-| Lanzhou | 兰州 | Clear broth, no tomato (traditional) | 清汤（传统无番茄）|
 | Sichuan | 四川 | Fried egg, chili oil | 煎蛋，红油 |
 | Shanghai | 上海 | Light, sweet, umami | 清淡，鲜甜 |
 | Beijing | 北京 | Egg drop, gravy noodles | 蛋花，打卤 |
 | Taiwan | 台湾 | Beef noodle soup, red-braised | 红烧牛肉面 |
 | Hong Kong | 香港 | Instant noodles, macaroni | 公仔面，通粉 |
 | Diaspora | 海外 | Adapted to local ingredients | 因地制宜 |
-
-### Cookbook References
-
-#### Freely Accessible
-- The Woks of Life (complete recipe)
-- Chinese Cooking Demystified (complete recipe)
-- Red House Spice (complete recipe)
-- Omnivore's Cookbook (complete recipe)
-
-#### Requires Library/Purchase Access
-- Xi'an Famous Foods by Jason Wang
-- Chinese Soul Food by Hsiao-Ching Chou
-- Every Grain of Rice by Fuchsia Dunlop
-- All Under Heaven by Carolyn Phillips
-- Wei-Chuan Noodle Cookbooks
-
-#### Historical (Public Domain)
-- The Chinese Cook Book (1917) - Archive.org
-  - *Note: No tomato recipes - predates tomato adoption*
 
 ---
 
@@ -101,26 +134,31 @@ The secret to rich tomato flavor:
 
 ```
 1. Add salt to tomatoes while stir-frying
-2. Use low heat, cook slowly
+2. Use medium heat, cook 4-6 minutes
 3. Press with spatula to break down
-4. Oil should turn red when done
+4. Oil should turn red/orange when done
+5. Texture becomes paste-like, not chunky
 ```
 
-### Tomato Peeling Methods (番茄去皮)
+**[Full technique guide →](techniques/MASTERCLASS.md)**
 
-| Method | Chinese | Best For |
-|--------|---------|----------|
-| Boiling water | 开水烫法 | Quick, reliable |
-| Chopstick + flame | 筷子火烧法 | Gas stove users |
-| Spoon scraping | 勺子刮皮法 | No heat needed |
-| Freezing | 冷冻法 | Batch prep |
+### Egg Methods
 
-### Egg Techniques (鸡蛋技巧)
+| Method | Best For | Technique |
+|--------|----------|-----------|
+| 蛋花 (Egg drop) | Soup noodles | Drizzle into simmering soup |
+| 炒蛋 (Scrambled) | Mixed in sauce | High heat, remove at 80% |
+| 煎蛋 (Fried) | Chengdu style | Whole egg with runny yolk |
 
-- Add a few drops of white wine for tenderness
-- Beat with 10ml water for fluffier texture
-- High heat, quick stir, remove immediately when set
-- Fry separately, add back at end to prevent overcooking
+### Noodle Pairing
+
+| Soup Style | Best Noodles |
+|------------|--------------|
+| Clear broth | 龙须面, 挂面 |
+| Thick gravy | 刀削面, 宽面 |
+| Dry style | 宽面, 裤带面 |
+
+**[Complete noodle encyclopedia →](guides/NOODLES.md)**
 
 ---
 
@@ -135,9 +173,10 @@ The secret to rich tomato flavor:
 | 1935 | Lao She's essay "The Tomato" documents cultural tensions |
 | 1940s | First home-cooked tomato-egg dishes documented |
 | Post-1949 | Tomato cultivation expands, dish becomes popular |
-| 1950s | Taiwanese beef noodle soup created by KMT veterans |
 | 1978+ | Post-reform era: Tomato noodle soup becomes national comfort food |
 | 2023 | 87% of Chinese households cook tomato-egg dishes weekly |
+
+**[Full history →](docs/HISTORY.md)**
 
 ---
 
@@ -153,17 +192,7 @@ Chinese tomato noodle soup represents:
 4. **Nutritional Wisdom** - Perfect complementation (eggs lack only vitamin C; tomatoes provide it)
 5. **Democratic Food** - From late-night Chengdu stalls to home kitchens worldwide
 
----
-
-## Naming Conventions
-
-| Chinese | Pinyin | Literal Meaning | Usage |
-|---------|--------|-----------------|-------|
-| 番茄鸡蛋面 | fānqié jīdàn miàn | Foreign-eggplant egg noodles | Standard |
-| 西红柿鸡蛋面 | xīhóngshì jīdàn miàn | Western-red-persimmon egg noodles | Northern China |
-| 番茄面 | fānqié miàn | Tomato noodles | Short form |
-| 煎蛋面 | jiāndàn miàn | Fried egg noodles | Chengdu style |
-| 打卤面 | dǎlǔ miàn | Gravy noodles | Northern style |
+**[Cultural significance →](docs/CULTURE.md)**
 
 ---
 
@@ -173,16 +202,30 @@ Chinese tomato noodle soup represents:
 Tomatonoodle/
 ├── README.md                           # This file
 ├── docs/
-│   └── HISTORY.md                      # Comprehensive historical documentation
+│   ├── HISTORY.md                      # Comprehensive historical documentation
+│   └── CULTURE.md                      # Literary and cultural references
 ├── recipes/
-│   ├── english-sources/
-│   │   └── README.md                   # Recipes from English websites
-│   ├── chinese-sources/
-│   │   └── README.md                   # 中文食谱 | Chinese platform recipes
-│   └── regional-variations/
-│       └── README.md                   # 10 regional styles documented
+│   ├── english-sources/                # 7+ English recipe sources
+│   ├── chinese-sources/                # 15+ Chinese platform recipes
+│   ├── regional-variations/            # 10 regional styles
+│   ├── DIETARY-ADAPTATIONS.md          # Vegan, GF, kid-friendly
+│   └── STOCKS.md                       # Foundation broth recipes
+├── guides/
+│   ├── NOODLES.md                      # Complete noodle encyclopedia
+│   ├── TOMATOES.md                     # Tomato selection and prep
+│   ├── RESTAURANTS.md                  # Where to eat this dish
+│   ├── SUBSTITUTIONS.md                # Ingredient swap matrix
+│   ├── MEAL-PLANNING.md                # Complete meal combinations
+│   └── PRONUNCIATION.md                # How to say it correctly
+├── techniques/
+│   ├── MASTERCLASS.md                  # Essential technique guide
+│   └── TROUBLESHOOTING.md              # Problem diagnosis and fixes
+├── resources/
+│   └── VIDEOS.md                       # Curated video tutorials
 ├── references/
 │   └── COOKBOOKS.md                    # Physical cookbook references
+├── community/
+│   └── FAMILY-RECIPE-TEMPLATE.md       # Share your family's recipe
 └── images/                             # (Reserved for future additions)
 ```
 
@@ -197,6 +240,7 @@ This repository aims to be the definitive archive for Chinese tomato noodle soup
 - Historical documentation and sources
 - Regional variations not yet covered
 - Cookbook recipe confirmations
+- Family recipes (use our [template](community/FAMILY-RECIPE-TEMPLATE.md))
 - Photographs with usage rights
 - Translations and corrections
 
@@ -213,6 +257,7 @@ This repository aims to be the definitive archive for Chinese tomato noodle soup
 - Emory University - Noodles on the Silk Road
 - Association for Asian Studies - Globalizing Asian Cuisines
 - New College of Florida - Western Influence on Chinese Cuisine
+- Lao She - "The Tomato" (西红柿, 1935)
 
 ### Recipe Sources
 - The Woks of Life (thewoksoflife.com)
@@ -226,6 +271,8 @@ This repository aims to be the definitive archive for Chinese tomato noodle soup
 - 豆果美食 (douguo.com)
 - 香哈网 (xiangha.com)
 - 心食谱 (xinshipu.com)
+- Bilibili (bilibili.com)
+- 小红书 (xiaohongshu.com)
 
 ### Cultural Commentary
 - The China Project
@@ -233,6 +280,25 @@ This repository aims to be the definitive archive for Chinese tomato noodle soup
 - The Bittman Project
 - 澎湃新闻 (thepaper.cn)
 - 百度百科
+
+---
+
+## Start Cooking
+
+**New to this dish?** Start here:
+1. [Technique Masterclass](techniques/MASTERCLASS.md) - Learn the fundamentals
+2. [English Recipes](recipes/english-sources/) - Pick your first recipe
+3. [Troubleshooting](techniques/TROUBLESHOOTING.md) - When things go wrong
+
+**Already cooking?** Go deeper:
+1. [Regional Variations](recipes/regional-variations/) - Explore 10 styles
+2. [Noodle Encyclopedia](guides/NOODLES.md) - Master noodle pairing
+3. [Restaurant Guide](guides/RESTAURANTS.md) - Taste the originals
+
+**Diaspora cook?** Resources for you:
+1. [Substitution Guide](guides/SUBSTITUTIONS.md) - Work with what you have
+2. [Dietary Adaptations](recipes/DIETARY-ADAPTATIONS.md) - Make it work for your diet
+3. [Family Template](community/FAMILY-RECIPE-TEMPLATE.md) - Document your heritage
 
 ---
 
@@ -245,3 +311,9 @@ This repository is for educational and archival purposes. Individual recipes rem
 *番茄鸡蛋面 - 一碗面，一段历史，一份乡愁*
 
 *Tomato egg noodles - A bowl of noodles, a piece of history, a taste of home*
+
+---
+
+**Star this repository** to help others discover this archive.
+
+**Share your family's recipe** using our [contribution template](community/FAMILY-RECIPE-TEMPLATE.md).
