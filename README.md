@@ -52,6 +52,19 @@ From its origins as a "foreign curiosity" in the 16th century to its status as t
 |---------|-------------|
 | [Family Recipe Template](community/FAMILY-RECIPE-TEMPLATE.md) | Share your family's version |
 
+### Historical Archive
+
+| Section | Description |
+|---------|-------------|
+| [Timeline](archive/TIMELINE.md) | Chronological history with primary sources (1550s-present) |
+| [Recipe Genealogy](archive/RECIPE-GENEALOGY.md) | Family tree of regional variations |
+| [Agricultural History](archive/AGRICULTURAL-HISTORY.md) | From ornamental plant to China's #1 vegetable |
+| [Primary Sources](archive/primary-sources/) | Original Chinese documents with translations |
+| [Oral Histories](archive/oral-histories/) | Living memory collection framework |
+| [Visual Archive](archive/photographs/) | Historical image documentation |
+| [Scholarly Bibliography](bibliography/SCHOLARLY-SOURCES.md) | Academic sources for research |
+| [Archival Methodology](archive/METHODOLOGY.md) | Documentation standards |
+
 ---
 
 ## What's Inside
@@ -81,6 +94,18 @@ From its origins as a "foreign curiosity" in the 16th century to its status as t
 - Diaspora identity and comfort food
 - Internet meme culture
 - Family oral histories
+
+### Historical Archive: Primary Source Collection
+
+| Archive Section | Contents |
+|-----------------|----------|
+| **Timeline** | 400-year chronology from 1550s to present |
+| **Primary Sources** | Lao She's essay, Qing records, Republican texts |
+| **Recipe Genealogy** | Evolution tree from parent dishes to 10 regional branches |
+| **Agricultural History** | 1908 seed imports → world's largest producer |
+| **Oral History Framework** | Interview guides, consent forms, collection standards |
+| **Visual Archive** | Historical image documentation and research roadmap |
+| **Scholarly Bibliography** | Academic sources, archives, databases |
 
 ---
 
@@ -224,6 +249,20 @@ Tomatonoodle/
 │   └── VIDEOS.md                       # Curated video tutorials
 ├── references/
 │   └── COOKBOOKS.md                    # Physical cookbook references
+├── archive/                            # HISTORICAL ARCHIVE
+│   ├── TIMELINE.md                     # 400-year chronological history
+│   ├── RECIPE-GENEALOGY.md             # Recipe family tree
+│   ├── AGRICULTURAL-HISTORY.md         # Tomato cultivation history
+│   ├── METHODOLOGY.md                  # Archival standards
+│   ├── primary-sources/
+│   │   ├── LAO-SHE-ESSAY.md            # 1935 literary primary source
+│   │   └── CHINESE-SOURCES.md          # Chinese-language documents
+│   ├── oral-histories/
+│   │   └── COLLECTION-GUIDE.md         # How to collect testimonies
+│   └── photographs/
+│       └── VISUAL-ARCHIVE.md           # Historical image documentation
+├── bibliography/
+│   └── SCHOLARLY-SOURCES.md            # Academic references
 ├── community/
 │   └── FAMILY-RECIPE-TEMPLATE.md       # Share your family's recipe
 └── images/                             # (Reserved for future additions)
