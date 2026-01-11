@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomatonoodle | The World's Archive of Chinese Tomato Noodle Soup</title>
+    <meta name="description" content="A comprehensive, bilingual archive documenting the history, recipes, and cultural significance of Chinese tomato noodle soup - from 1550 to today.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍅</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">🍜</span>
+                <span class="logo-text">Tomatonoodle</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#recipes" class="nav-link">Recipes</a></li>
+                <li><a href="#history" class="nav-link">History</a></li>
+                <li><a href="#regions" class="nav-link">Regions</a></li>
+                <li><a href="#techniques" class="nav-link">Techniques</a></li>
+                <li><a href="#archive" class="nav-link">Archive</a></li>
+                <li><a href="https://github.com/MattHJensen/Tomatonoodle" class="nav-link nav-github" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-icon">📚</span>
+                <span>World-Class Archive</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-en">The Complete Archive of</span>
+                <span class="title-main">Chinese Tomato Noodle Soup</span>
+                <span class="title-zh">番茄鸡蛋面</span>
+            </h1>
+            <p class="hero-subtitle">
+                From a "foreign curiosity" in the 1550s to China's most beloved comfort food today.
+                400 years of history. 30+ recipes. 10 regional styles. One bowl of noodles.
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">400+</span>
+                    <span class="stat-label">Years of History</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">30+</span>
+                    <span class="stat-label">Recipes</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">10</span>
+                    <span class="stat-label">Regional Styles</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">87%</span>
+                    <span class="stat-label">Chinese Homes Cook It Weekly</span>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#recipes" class="btn btn-primary">Explore Recipes</a>
+                <a href="#history" class="btn btn-secondary">Discover History</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </header>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container">
+            <blockquote class="main-quote">
+                <p>"Just a whiff of this cooking and folks will tell tales of sitting in or near the kitchen as a kid as a parent made this dish."</p>
+            </blockquote>
+            <p class="quote-context">一碗面，一段历史，一份乡愁<br><em>A bowl of noodles, a piece of history, a taste of home</em></p>
+        </div>
+    </section>
+
+    <!-- Recipes Section -->
+    <section class="section recipes-section" id="recipes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">食谱 Recipes</span>
+                <h2 class="section-title">30+ Recipes from Two Worlds</h2>
+                <p class="section-desc">Authentic recipes from English and Chinese sources, spanning home kitchens to legendary street stalls</p>
+            </div>
+
+            <div class="recipe-tabs">
+                <button class="tab-btn active" data-tab="english">English Sources</button>
+                <button class="tab-btn" data-tab="chinese">中文来源</button>
+                <button class="tab-btn" data-tab="dietary">Dietary Adaptations</button>
+            </div>
+
+            <div class="recipe-grid" id="recipeGrid">
+                <!-- English Sources -->
+                <div class="recipe-card" data-category="english">
+                    <div class="recipe-icon">🥢</div>
+                    <h3>The Woks of Life</h3>
+                    <p class="recipe-style">10-Minute Egg Drop Soup</p>
+                    <span class="recipe-region">Shanghai Style</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 10 min</span>
+                        <span>👨‍👩‍👧 Beginner</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="english">
+                    <div class="recipe-icon">🌶️</div>
+                    <h3>Chinese Cooking Demystified</h3>
+                    <p class="recipe-style">Chengdu Jiandanmian</p>
+                    <span class="recipe-region">Sichuan Style</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 20 min</span>
+                        <span>👨‍🍳 Intermediate</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="english">
+                    <div class="recipe-icon">🍜</div>
+                    <h3>Made With Lau</h3>
+                    <p class="recipe-style">Dad's Home Recipe</p>
+                    <span class="recipe-region">Hong Kong Style</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 15 min</span>
+                        <span>👨‍👩‍👧 Beginner</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="english">
+                    <div class="recipe-icon">🥣</div>
+                    <h3>Omnivore's Cookbook</h3>
+                    <p class="recipe-style">Comfort Soup</p>
+                    <span class="recipe-region">Beijing Style</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 15 min</span>
+                        <span>👨‍👩‍👧 Beginner</span>
+                    </div>
+                </div>
+
+                <!-- Chinese Sources -->
+                <div class="recipe-card" data-category="chinese">
+                    <div class="recipe-icon">🔥</div>
+                    <h3>下厨房 Xiachufang</h3>
+                    <p class="recipe-style">恨不得抱着锅舔</p>
+                    <span class="recipe-region">10M+ Views</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 15 min</span>
+                        <span>⭐ 56.8万收藏</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="chinese">
+                    <div class="recipe-icon">🍳</div>
+                    <h3>美食杰 Meishij</h3>
+                    <p class="recipe-style">龙须面版本</p>
+                    <span class="recipe-region">Dragon Beard Noodles</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 12 min</span>
+                        <span>👨‍👩‍👧 家常</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="chinese">
+                    <div class="recipe-icon">📺</div>
+                    <h3>Bilibili</h3>
+                    <p class="recipe-style">专业厨子私藏做法</p>
+                    <span class="recipe-region">Video Tutorial</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 20 min</span>
+                        <span>👨‍🍳 进阶</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="chinese">
+                    <div class="recipe-icon">📱</div>
+                    <h3>小红书 Xiaohongshu</h3>
+                    <p class="recipe-style">5分钟快手版</p>
+                    <span class="recipe-region">Quick Version</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 5 min</span>
+                        <span>👨‍👩‍👧 超简单</span>
+                    </div>
+                </div>
+
+                <!-- Dietary -->
+                <div class="recipe-card" data-category="dietary">
+                    <div class="recipe-icon">🌱</div>
+                    <h3>Vegan Version</h3>
+                    <p class="recipe-style">Silken Tofu + Chickpea Flour</p>
+                    <span class="recipe-region">Plant-Based</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 15 min</span>
+                        <span>🌿 100% Vegan</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="dietary">
+                    <div class="recipe-icon">🌾</div>
+                    <h3>Gluten-Free</h3>
+                    <p class="recipe-style">Rice Noodles Version</p>
+                    <span class="recipe-region">Celiac-Safe</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 12 min</span>
+                        <span>✓ GF Certified</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="dietary">
+                    <div class="recipe-icon">👶</div>
+                    <h3>Kid-Friendly</h3>
+                    <p class="recipe-style">Milder, Fun Shapes</p>
+                    <span class="recipe-region">For Little Ones</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 10 min</span>
+                        <span>😊 Ages 2+</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="dietary">
+                    <div class="recipe-icon">💪</div>
+                    <h3>Keto Version</h3>
+                    <p class="recipe-style">Shirataki Noodles</p>
+                    <span class="recipe-region">Low-Carb</span>
+                    <div class="recipe-meta">
+                        <span>⏱️ 12 min</span>
+                        <span>🥑 5g Net Carbs</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <a href="recipes/" class="btn btn-outline">View All Recipes →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Timeline Section -->
+    <section class="section history-section" id="history">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">历史 History</span>
+                <h2 class="section-title">400 Years in the Making</h2>
+                <p class="section-desc">From "inedible foreign curiosity" to China's most frequently cooked home meal</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item" data-year="1550s">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">1550s-1650s</span>
+                        <h3>The Arrival</h3>
+                        <p>Portuguese traders bring tomato seeds to Macau. Chinese scholars classify them as 番茄 (foreign eggplant) - ornamental only, "not for eating."</p>
+                        <span class="timeline-tag">Phase I: Introduction</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1650">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">1650-1880</span>
+                        <h3>300 Years of Suspicion</h3>
+                        <p>Tomatoes remain ornamental garden curiosities. The bright red color and nightshade family connection keep them off dinner tables.</p>
+                        <span class="timeline-tag">Phase II: Ornamental Period</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1908">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">1908</span>
+                        <h3>Official Recognition</h3>
+                        <p>Qing government imports tomato seeds from Russia for agricultural experimentation. First official record of tomatoes as potential food crop.</p>
+                        <span class="timeline-tag">Phase III: Experimentation</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item highlight" data-year="1935">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">1935</span>
+                        <h3>Lao She's Essay</h3>
+                        <p>"My mother would not touch it. She said anything that red must be poisonous... But the young people have no such fears."</p>
+                        <span class="timeline-tag primary">Primary Source: 《西红柿》</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1940s">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">1940s</span>
+                        <h3>The Recipe Emerges</h3>
+                        <p>Shanghai housewives combine Western ingredient with Chinese technique. Tomato + egg + noodles = comfort food is born.</p>
+                        <span class="timeline-tag">Phase IV: Cultural Synthesis</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1980s">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">1980s</span>
+                        <h3>Huaxing Street Legend</h3>
+                        <p>Chengdu's late-night noodle stalls create the iconic 煎蛋面 (fried egg noodles) version. A street food classic is born.</p>
+                        <span class="timeline-tag">Phase V: Regional Branching</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="2023">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Today</span>
+                        <h3>National Comfort Food</h3>
+                        <p>87% of Chinese households cook tomato-egg dishes weekly. China produces 35% of world's tomatoes (~68 million tonnes).</p>
+                        <span class="timeline-tag success">Phase VI: Universal Adoption</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <a href="archive/TIMELINE.md" class="btn btn-outline">Explore Full Timeline →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regional Map Section -->
+    <section class="section regions-section" id="regions">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">地区 Regions</span>
+                <h2 class="section-title">10 Regional Styles</h2>
+                <p class="section-desc">One dish, infinite variations. Explore how each region made it their own.</p>
+            </div>
+
+            <div class="region-explorer">
+                <div class="region-cards">
+                    <div class="region-card active" data-region="chengdu">
+                        <div class="region-icon">🌶️</div>
+                        <h3>成都 Chengdu</h3>
+                        <p>煎蛋面 Fried Egg Noodles</p>
+                    </div>
+                    <div class="region-card" data-region="beijing">
+                        <div class="region-icon">🏛️</div>
+                        <h3>北京 Beijing</h3>
+                        <p>打卤面 Gravy Noodles</p>
+                    </div>
+                    <div class="region-card" data-region="shanghai">
+                        <div class="region-icon">🌃</div>
+                        <h3>上海 Shanghai</h3>
+                        <p>清淡细面 Light & Delicate</p>
+                    </div>
+                    <div class="region-card" data-region="hongkong">
+                        <div class="region-icon">🏙️</div>
+                        <h3>香港 Hong Kong</h3>
+                        <p>茶餐廳通粉 Cha Chaan Teng</p>
+                    </div>
+                    <div class="region-card" data-region="xian">
+                        <div class="region-icon">🏔️</div>
+                        <h3>西安 Xi'an</h3>
+                        <p>油泼扯面 Oil-Splashed</p>
+                    </div>
+                    <div class="region-card" data-region="shandong">
+                        <div class="region-icon">🌊</div>
+                        <h3>山东 Shandong</h3>
+                        <p>拉面 Hand-Pulled</p>
+                    </div>
+                    <div class="region-card" data-region="xinjiang">
+                        <div class="region-icon">🐪</div>
+                        <h3>新疆 Xinjiang</h3>
+                        <p>拉条子 Laghman</p>
+                    </div>
+                    <div class="region-card" data-region="taiwan">
+                        <div class="region-icon">🏝️</div>
+                        <h3>台湾 Taiwan</h3>
+                        <p>红烧牛肉面 Beef Noodle</p>
+                    </div>
+                    <div class="region-card" data-region="northeast">
+                        <div class="region-icon">❄️</div>
+                        <h3>东北 Northeast</h3>
+                        <p>大面条 Hearty Portions</p>
+                    </div>
+                    <div class="region-card" data-region="diaspora">
+                        <div class="region-icon">🌍</div>
+                        <h3>海外 Diaspora</h3>
+                        <p>Adapted Worldwide</p>
+                    </div>
+                </div>
+
+                <div class="region-detail" id="regionDetail">
+                    <div class="region-detail-content" data-region="chengdu">
+                        <h3>成都 Chengdu Style</h3>
+                        <div class="region-info">
+                            <div class="info-item">
+                                <span class="info-label">Signature</span>
+                                <span class="info-value">Whole fried egg with runny yolk</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Noodle</span>
+                                <span class="info-value">Fresh alkaline (碱水面)</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Tomato</span>
+                                <span class="info-value">Cooked to thick paste (出沙)</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Origin</span>
+                                <span class="info-value">Huaxing Street, 1980s</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Best Time</span>
+                                <span class="info-value">11 PM - 2 AM (late-night culture)</span>
+                            </div>
+                        </div>
+                        <p class="region-story">The legendary Huaxing Street noodle stalls created this iconic version for Chengdu's night owls - students, taxi drivers, and lovers ending their dates. The key innovation: a whole fried egg instead of scrambled.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Techniques Section -->
+    <section class="section techniques-section" id="techniques">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">技巧 Techniques</span>
+                <h2 class="section-title">Master the Essentials</h2>
+                <p class="section-desc">The secrets that separate good from great</p>
+            </div>
+
+            <div class="technique-showcase">
+                <div class="technique-main">
+                    <div class="technique-video-placeholder">
+                        <div class="play-button">▶</div>
+                        <span>炒出沙 Technique</span>
+                    </div>
+                    <div class="technique-info">
+                        <h3>The 炒出沙 Technique</h3>
+                        <p class="technique-subtitle">"Stir-fry Until Sandy" - The Secret to Rich Tomato Flavor</p>
+                        <div class="technique-steps">
+                            <div class="step">
+                                <span class="step-num">1</span>
+                                <span class="step-text">Add salt to tomatoes while stir-frying</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-num">2</span>
+                                <span class="step-text">Use medium heat, cook 4-6 minutes</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-num">3</span>
+                                <span class="step-text">Press with spatula to break down</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-num">4</span>
+                                <span class="step-text">Oil turns red/orange when done</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-num">5</span>
+                                <span class="step-text">Texture becomes paste-like, not chunky</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="technique-grid">
+                    <div class="technique-card">
+                        <div class="technique-icon">🍳</div>
+                        <h4>Egg Methods</h4>
+                        <ul>
+                            <li><strong>蛋花</strong> Egg drop ribbons</li>
+                            <li><strong>炒蛋</strong> Scrambled curds</li>
+                            <li><strong>煎蛋</strong> Fried whole egg</li>
+                        </ul>
+                    </div>
+                    <div class="technique-card">
+                        <div class="technique-icon">🍝</div>
+                        <h4>Noodle Pairing</h4>
+                        <ul>
+                            <li><strong>Clear broth</strong> → 龙须面, 挂面</li>
+                            <li><strong>Thick gravy</strong> → 刀削面, 宽面</li>
+                            <li><strong>Dry style</strong> → 宽面, 裤带面</li>
+                        </ul>
+                    </div>
+                    <div class="technique-card">
+                        <div class="technique-icon">🍅</div>
+                        <h4>Tomato Prep</h4>
+                        <ul>
+                            <li><strong>开水烫法</strong> Boiling water peel</li>
+                            <li><strong>筷子火烧</strong> Chopstick + flame</li>
+                            <li><strong>冷冻法</strong> Freeze then peel</li>
+                        </ul>
+                    </div>
+                    <div class="technique-card">
+                        <div class="technique-icon">🔧</div>
+                        <h4>Troubleshooting</h4>
+                        <ul>
+                            <li>Soup too thin? → Reduce or add paste</li>
+                            <li>Eggs rubbery? → Lower heat, less time</li>
+                            <li>Bland flavor? → More 炒出沙 time</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <a href="techniques/MASTERCLASS.md" class="btn btn-outline">Full Technique Masterclass →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Archive Section -->
+    <section class="section archive-section" id="archive">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">档案 Archive</span>
+                <h2 class="section-title">Historical Archive</h2>
+                <p class="section-desc">Primary sources, oral histories, and scholarly documentation</p>
+            </div>
+
+            <div class="archive-grid">
+                <a href="archive/TIMELINE.md" class="archive-card">
+                    <div class="archive-icon">📜</div>
+                    <h3>Timeline</h3>
+                    <p>400-year chronology with primary sources from 1550s to present</p>
+                    <span class="archive-tag">6 Historical Phases</span>
+                </a>
+
+                <a href="archive/primary-sources/LAO-SHE-ESSAY.md" class="archive-card featured">
+                    <div class="archive-icon">✒️</div>
+                    <h3>Lao She's Essay</h3>
+                    <p>"西红柿" (1935) - The most important literary source on tomato adoption</p>
+                    <span class="archive-tag">Primary Source</span>
+                </a>
+
+                <a href="archive/RECIPE-GENEALOGY.md" class="archive-card">
+                    <div class="archive-icon">🌳</div>
+                    <h3>Recipe Genealogy</h3>
+                    <p>Family tree tracing evolution from parent dishes to 10 regional branches</p>
+                    <span class="archive-tag">Recipe Evolution</span>
+                </a>
+
+                <a href="archive/AGRICULTURAL-HISTORY.md" class="archive-card">
+                    <div class="archive-icon">🌱</div>
+                    <h3>Agricultural History</h3>
+                    <p>From 1908 seed imports to world's largest producer (68M tonnes)</p>
+                    <span class="archive-tag">Production Data</span>
+                </a>
+
+                <a href="archive/oral-histories/COLLECTION-GUIDE.md" class="archive-card">
+                    <div class="archive-icon">🎙️</div>
+                    <h3>Oral Histories</h3>
+                    <p>Collection framework with 32 bilingual interview questions</p>
+                    <span class="archive-tag">Living Memory</span>
+                </a>
+
+                <a href="bibliography/SCHOLARLY-SOURCES.md" class="archive-card">
+                    <div class="archive-icon">📚</div>
+                    <h3>Bibliography</h3>
+                    <p>Academic sources, archives, and databases for research</p>
+                    <span class="archive-tag">50+ Sources</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="section resources-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">资源 Resources</span>
+                <h2 class="section-title">Everything You Need</h2>
+            </div>
+
+            <div class="resources-grid">
+                <a href="guides/NOODLES.md" class="resource-card">
+                    <span class="resource-icon">🍜</span>
+                    <h3>Noodle Encyclopedia</h3>
+                    <p>11 types with pairings</p>
+                </a>
+                <a href="guides/RESTAURANTS.md" class="resource-card">
+                    <span class="resource-icon">🏪</span>
+                    <h3>Restaurant Guide</h3>
+                    <p>Where to eat worldwide</p>
+                </a>
+                <a href="guides/SUBSTITUTIONS.md" class="resource-card">
+                    <span class="resource-icon">🔄</span>
+                    <h3>Substitutions</h3>
+                    <p>50+ ingredient swaps</p>
+                </a>
+                <a href="recipes/STOCKS.md" class="resource-card">
+                    <span class="resource-icon">🍲</span>
+                    <h3>Stock Recipes</h3>
+                    <p>Foundation broths</p>
+                </a>
+                <a href="resources/VIDEOS.md" class="resource-card">
+                    <span class="resource-icon">📺</span>
+                    <h3>Video Library</h3>
+                    <p>Curated tutorials</p>
+                </a>
+                <a href="guides/PRONUNCIATION.md" class="resource-card">
+                    <span class="resource-icon">🗣️</span>
+                    <h3>Pronunciation</h3>
+                    <p>Say it correctly</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Share Your Family's Recipe</h2>
+                <p>Every family has their version. Contribute yours to preserve this culinary heritage.</p>
+                <a href="community/FAMILY-RECIPE-TEMPLATE.md" class="btn btn-primary btn-large">Contribute a Recipe →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">🍜 Tomatonoodle</span>
+                    <p>The world's archive of Chinese tomato noodle soup</p>
+                    <p class="footer-tagline">番茄鸡蛋面 - 一碗面，一段历史，一份乡愁</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Recipes</h4>
+                        <a href="recipes/english-sources/">English Sources</a>
+                        <a href="recipes/chinese-sources/">中文来源</a>
+                        <a href="recipes/regional-variations/">Regional Styles</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Learn</h4>
+                        <a href="techniques/MASTERCLASS.md">Techniques</a>
+                        <a href="guides/NOODLES.md">Noodle Guide</a>
+                        <a href="docs/HISTORY.md">Full History</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Archive</h4>
+                        <a href="archive/TIMELINE.md">Timeline</a>
+                        <a href="archive/primary-sources/">Primary Sources</a>
+                        <a href="bibliography/">Bibliography</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Community</h4>
+                        <a href="https://github.com/MattHJensen/Tomatonoodle" target="_blank">GitHub</a>
+                        <a href="community/FAMILY-RECIPE-TEMPLATE.md">Contribute</a>
+                        <a href="archive/oral-histories/">Oral Histories</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Open source archive for educational purposes. Recipes credited to original creators.</p>
+                <p>Made with 🍅 for noodle lovers everywhere</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
