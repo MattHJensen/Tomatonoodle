@@ -14,9 +14,14 @@
 | **Author** | 老舍 (Lǎo Shě, pen name of 舒庆春 Shū Qìngchūn) |
 | **Year** | 1935 |
 | **Genre** | Essay (随笔, suíbǐ) |
-| **Original Publication** | Literary magazine (specific issue being researched) |
+| **Original Publication** | 《避暑录话》(Bishulühua, "Summer Avoidance Talks"), published in 青岛民报 (Qingdao Minbao), July-September 1935 |
+| **Related Essay** | 《再谈西红柿》("Talking About Tomatoes Again") in same publication |
 | **Language** | Vernacular Chinese (白话文) |
 | **Historical Significance** | First major literary documentation of Chinese attitudes toward tomatoes |
+
+### Important Note on Translations
+
+The English translations and reconstructed Chinese passages below are **scholarly interpretations** based on documented themes from Lao She's essays. The original essays discuss how tomatoes (西红柿) transformed from "foreign curiosity" to accepted vegetable, satirizing "foreign things" (洋货) in Qingdao. Direct quotes should be verified against the original《避暑录话》texts.
 
 ---
 
@@ -47,7 +52,9 @@ Lao She's documentation of tomato adoption is significant because:
 
 ---
 
-## Essay Excerpts (Translated)
+## Essay Excerpts (Reconstructed Translations)
+
+**Note:** These passages are scholarly reconstructions based on known themes from Lao She's tomato essays. They capture the documented sentiments and style but should not be cited as direct quotations without verification against the original Chinese texts in《避暑录话》.
 
 ### On First Encounters
 
@@ -169,19 +176,19 @@ Lao She wrote during a period of intense debate about Chinese modernization:
 
 ## Research Notes
 
-### What We Know
+### What We Know (Verified)
 
-1. The essay exists and is referenced in Lao She scholarship
-2. It was written approximately 1935
-3. It discusses tomato adoption with characteristic Lao She humor
-4. It documents the tomato-egg combination as emerging
+1. **The essays exist:** Lao She wrote《西红柿》and《再谈西红柿》
+2. **Publication confirmed:**《避暑录话》, a literary supplement to 青岛民报 (Qingdao Minbao), July-September 1935
+3. **Context verified:** Published weekly for ten issues alongside work by Wang Tongzhao, Hong Shen, Zang Kejia, and others
+4. **Theme confirmed:** The essays satirized "foreign things" (洋货) including how tomatoes elevated their status
+5. **Quote verified:** In《再谈西红柿》, Lao She wrote: "Qingdao is a place full of Western flavor—Western people, Western houses, Western clothes, Western medicine, Western onions, Western garlic, everything complete."
 
 ### What We're Researching
 
-1. Original publication venue (which magazine, which issue)
-2. Complete original Chinese text
-3. Whether a full English translation exists
-4. Related essays by Lao She on food topics
+1. Complete original Chinese text transcription
+2. Whether a full English translation exists
+3. Related essays by Lao She on food topics
 
 ### How You Can Help
 

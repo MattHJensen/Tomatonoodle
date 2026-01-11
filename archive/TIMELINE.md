@@ -93,12 +93,12 @@ Different regions developed different names, all emphasizing foreign origin:
 | 1842+ | Treaty ports open to Western trade | Shanghai, Canton, etc. |
 | 1880s | Western hotels begin serving tomato dishes | Shanghai |
 | 1890s | First Chinese cooks learn tomato preparation | Treaty ports |
-| 1908 | First official record of tomato seeds imported from Russia | Government agricultural records |
+| 1880s-1900s | Urban elites in treaty ports begin experimenting with tomatoes as food | Contemporary accounts |
 
-### Agricultural Introduction
+### Agricultural Transition
 
-**1908 Agricultural Import Record:**
-> The Qing government's agricultural bureau documented the first official import of tomato seeds from Russia for experimental cultivation. This marks the transition from ornamental to potential food crop.
+**Late Qing Shift (Guangxu Period, 1875-1908):**
+> During the Guangxu period, Western influence through treaty ports began shifting attitudes. Urban elites and Western-educated Chinese started experimenting with tomatoes as food, influenced by Western hotels and restaurants in Shanghai and other port cities.
 
 ### First Western-Style Restaurants
 
@@ -213,13 +213,15 @@ During this period, work unit (单位) cafeterias served tomato-egg dishes becau
 
 ### The Huaxing Street Origin Story
 
-**Chengdu, Sichuan - 1980s**
+**Chengdu, Sichuan - Qing Dynasty to Present**
 
-According to oral histories collected from long-time Chengdu residents:
+The history of fried egg noodles (煎蛋面) on Huaxing Street traces back to the Qing Dynasty. Historical accounts describe vendors using traditional copper pots, bronze tripods, copper scoops, and spoons to serve tomato-based soup with fried eggs and noodles.
 
-> "The late-night noodle stalls on Huaxing Street started serving 煎蛋面 (jiandanmian) in the early 1980s. It was food for taxi drivers, students, and lovers ending their dates. The tomato version came because someone wanted something different from plain noodles."
+The late-night food culture revived in the 1980s during China's reform era, when Huaxing Street became famous again for its noodle stalls serving students, taxi drivers, and night owls.
 
-**Key Innovation:** The Chengdu version uses a whole fried egg rather than scrambled, distinguishing it from other regional styles.
+> "The old managers specially made copper pots, bronze tripods, copper scoops, and copper spoons, using red tomato as the soup base, adding green vegetables, fried eggs, and noodles."
+
+**Key Innovation:** The Chengdu version uses a whole fried egg with runny yolk rather than scrambled, distinguishing it from other regional styles.
 
 ### Regional Recipe Branches
 
@@ -247,7 +249,7 @@ According to oral histories collected from long-time Chengdu residents:
 | 2015 | Bilibili cooking videos proliferate |
 | 2018 | Xiaohongshu becomes recipe-sharing platform |
 | 2020 | Pandemic drives global interest in comfort cooking |
-| 2023 | Survey: 87% of Chinese households cook tomato-egg weekly |
+| 2023 | Tomato-egg dishes recognized as China's most commonly cooked home meal |
 
 ### Diaspora Documentation
 
@@ -278,7 +280,7 @@ Chinese emigrant communities began systematically documenting the recipe:
 | Era | Type of Evidence | Examples |
 |-----|------------------|----------|
 | 1600-1800 | Botanical texts | 群芳谱, regional herbals |
-| 1800-1920 | Agricultural records | Qing government imports |
+| 1800-1920 | Agricultural records | Late Qing developments |
 | 1920-1949 | Literary works | Lao She's essay, magazines |
 | 1949-1978 | Institutional records | Cafeteria menus, agricultural plans |
 | 1978-2000 | Oral histories | Restaurant founders, home cooks |

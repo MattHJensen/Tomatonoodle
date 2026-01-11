@@ -76,10 +76,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 { label: 'Signature', value: 'Whole fried egg with runny yolk' },
                 { label: 'Noodle', value: 'Fresh alkaline (碱水面)' },
                 { label: 'Tomato', value: 'Cooked to thick paste (出沙)' },
-                { label: 'Origin', value: 'Huaxing Street, 1980s' },
+                { label: 'Origin', value: 'Huaxing Street, Qing Dynasty' },
                 { label: 'Best Time', value: '11 PM - 2 AM (late-night culture)' }
             ],
-            story: 'The legendary Huaxing Street noodle stalls created this iconic version for Chengdu\'s night owls - students, taxi drivers, and lovers ending their dates. The key innovation: a whole fried egg instead of scrambled.'
+            story: 'Huaxing Street\'s fried egg noodles date back to the Qing Dynasty, when vendors first served this dish with copper pots and tripods. The late-night culture revived in the 1980s made it famous again among students, taxi drivers, and lovers ending their dates.'
         },
         beijing: {
             title: '北京 Beijing Style',
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { label: 'Tomato', value: 'Heavy use, stewed' },
                 { label: 'Character', value: 'Central Asian influence' }
             ],
-            story: 'Xinjiang\'s version reflects its Central Asian heritage. The pulled laghman noodles, lamb, and cumin create a distinctly different flavor profile. Fun fact: Xinjiang produces 25% of China\'s tomatoes.'
+            story: 'Xinjiang\'s version reflects its Central Asian heritage. The pulled laghman noodles, lamb, and cumin create a distinctly different flavor profile. Fun fact: Xinjiang produces over 70% of China\'s tomatoes.'
         },
         taiwan: {
             title: '台湾 Taiwan Style',
